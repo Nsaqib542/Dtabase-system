@@ -17,10 +17,4 @@ end user - application programmers that use the DB as a storage subsystem
 designer - application programmers and/or business analysts who design the layout of the DB
 administrator - operators who maintain the heath and efficiency of the DB
 implementor - programmers who maintain and develop the DBMS
-The key concepts of database includes
 
-schema - the structure and the constraints of data
-data - the actual content of the DB representing information
-data definition language - used to specify the schema
-data manipulation and query language - used to change the data and query them
-Schema are meta-data that describe data. Such meta-data can describe the structure of the data which ranges from strictly enforced structure (relational) to semi-structure (XML) and free-structured data (text files). Before we define the schema we must decide on a model of the data - a metaphor. For relational database n-ary relation is used to model data.
